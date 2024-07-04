@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+}
+
+.Container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.image  {
+    width: 100%;
+    height: auto;
+}
+
+.Container .text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    
+    
+    
+}
+
+
+.navbar {
+    background-color: #e0f7fa;
+    overflow: hidden;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.navbar ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    color: rgb(28, 27, 27);
+    text-align: inherit;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    font-weight: 600;
+    font-size: 18px;
+
+
+}
+
+
+
+.navbar ul li a:hover {
+    background-color: #e0f7fa;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    font-size: 14px;
+    
+  }
+  
+  .float-image {
+    float: left; 
+    margin-right: 20px; 
+    margin-bottom: 10px; 
+    width: 250px; 
+    height: auto; 
+  }
+  .text1{
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 0px;
+
+    
+  }
+
+  .test {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+   
+}
+
+  .container {
+    background-color: #e0f7fa; 
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 0px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 50%;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.radio-group input {
+    margin: 0 5px 0 0;
+}
+
+.radio-group label {
+    margin: 0 20px 0 5px;
+}
+
+button {
+    margin-top: 20px;
+    margin-right: 600px;
+    padding: 10px ;
+    background-color: #a4b1b3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #adcef0;
+}
+
+.test1 {
+    padding-left: 1000px;
+    padding-right: 300px;
+}
+  
+    
